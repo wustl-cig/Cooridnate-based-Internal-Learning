@@ -27,7 +27,7 @@ Next, run the following script in the main folder
 ```
 $ python train_mlp.py
 ```
-to train the MLPs for all the testing images. Note that you need to re-generate the corresponding data if you want to adjust noise level, number of projections, etc. Each MLP takes roughly 10-20 minutes to train on a single Nvidia GTX 1080Ti GPU.
+to train the MLPs for all the testing images. Note that you need to re-generate the corresponding data if you want to adjust noise level, number of projections, etc. Each MLP takes roughly 10-30 minutes to train on a single Nvidia GTX 1080Ti GPU.
 
 After the training is done, you can run
 ```
