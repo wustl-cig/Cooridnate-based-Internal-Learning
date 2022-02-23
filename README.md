@@ -2,7 +2,7 @@
 
 We propose Coordinate-based Internal Learning (CoIL) as a new deep-learning (DL) methodology for continuous representation of measurements. Unlike traditional DL methods that learn a mapping from the measurements to the desired image, CoIL trains a multilayer perceptron (MLP) to encode the complete measurement field by mapping the coordinates of the measurements to their responses. CoIL is a self-supervised method that requires no training examples besides the measurements of the test object itself. Once the MLP is trained, CoIL generates new measurements that can be used within most image reconstruction methods. We validate CoIL on sparse-view computed tomography using several widely-used reconstruction methods, including purely model-based methods and those based on DL. Our results demonstrate the ability of CoIL to consistently improve the performance of all the considered methods by providing high-fidelity measurement fields.
 
-**[Video](https://www.youtube.com/watch?v=7LXagKec31U)** | **[arXiv](https://arxiv.org/abs/2102.05181)** | **[IEEE-TCi](https://ieeexplore.ieee.org/document/9606601)**
+**[Video](https://www.youtube.com/watch?v=7LXagKec31U)** | **[arXiv](https://arxiv.org/abs/2102.05181)** | **[IEEE-TCI](https://ieeexplore.ieee.org/document/9606601)**
 
 ## How to run the code
 
