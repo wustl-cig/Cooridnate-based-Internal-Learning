@@ -1,4 +1,4 @@
-# This script is for generating training examples
+# This script is for FBP reconstruction
 # Yu Sun, WUSTL, 2021
 
 import os
