@@ -1,4 +1,4 @@
-# This script is for generating training examples
+# This script is for training CoIL
 # Yu Sun, WUSTL, 2021
 
 import os
