@@ -60,8 +60,8 @@ if __name__ == "__main__":
     ####   Generate   ####
     ######################
 
-    for num_proj in [360]:
-        for input_snr in [40]:
+    for num_proj in [60,90,120]:
+        for input_snr in [30,40,50]:
             for img_idx in range(8):
                 # Sepcify the name of the trianing dataset
                 dataset_name = 'PBCT_{}_{}_{}_{}'.format(img_idx, num_proj, input_snr, num_val_proj)
